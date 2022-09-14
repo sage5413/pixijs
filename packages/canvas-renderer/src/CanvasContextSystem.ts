@@ -100,6 +100,7 @@ export class CanvasContextSystem implements ISystem
                 this.smoothProperty = 'msImageSmoothingEnabled';
             }
         }
+        this.rootContext[this.smoothProperty] = false;
     }
 
     /**
